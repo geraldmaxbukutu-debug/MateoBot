@@ -1,0 +1,15 @@
+{
+ "botName": "𝐆𝐄𝐑𝐀𝐋𝐃 ⋐⊔⋑",
+ "prefix": ["/", "01", "#", "+"],
+ "adminIDs": [""],
+ "ownerID": "",
+ "allowedGroups": [],
+ "language": "en",
+ "restartIntervalMinutes": 60,
+ "fcaOptions": { 
+    "online": true,
+    "updatePresence": true,
+    "selfListen": false, 
+    "randomUserAgent": false 
+ } 
+}

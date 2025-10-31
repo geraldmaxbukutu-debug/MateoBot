@@ -1,0 +1,25 @@
+{
+  "name": "titan-bot",
+  "version": "1.0.0",
+  "description": "Facebook bot made by team titans",
+  "main": "titan.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js --env production",
+    "dev": "pm2 start ecosystem.config.js --env development"
+  },
+  "dependencies": {
+    "pm2": "latest",
+    "nexus-fca": "^2.1.7",
+    "figlet": "^1.6.0",
+    "mongodb": "^6.3.0",
+    "fontstyles": "latest",
+    "chalk": "^5.3.0",
+    "gradient-string": "^2.0.2",
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
